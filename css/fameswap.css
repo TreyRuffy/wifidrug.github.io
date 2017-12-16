@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*!
+ * Custom CSS
+*/
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333333;
+}
+
+/* ---------- Navbar text link Css Start ---------- */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar a:link,
+.navbar a:visited,
+.navbar a:active{
+    color: #B6B6B6;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #FFFFFF;
+}
+
+/* ---------- //Navbar text link Css End ---------- */
+
+.menu .active > a:hover,
+.menu .active > a:active,
+.menu .active > a:focus,
+.menu .active > a{
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+/* ---------- Navbar Section Css Start ---------- */
+
+.navbar-toggle {
+    color: #B6B6B6;
+}
+.navbar-toggle:hover {
+    color: #FFFFFF;
+}
+
+.navbar-nav li>a:focus,
+.navbar-nav li>a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+/* ---------- //Navbar Section Css End ---------- */
+
+
+/* homepage panel */
+
+.homepage h1 {
+    text-align: center;
+}
+
+.homepage h2 {
+    text-align: center;
+    font-size: large;
+}
+
+/* listing*/
+.listingImageBlock {
+    width:150px ;
+    margin:0px 10px 10px 0px;
+    position: relative;
+}
+.imageListingRemoveButton {
+    position: absolute;
+    right:0;
+}
+.image150 {
+    width:150px;
+    height:150px;
+}
+/* footer */
+
+.copyright {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: darkgray;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.copyright a {
+    color: gray;
+}
